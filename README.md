@@ -34,4 +34,18 @@ To run this project, you'll need:
    git clone https://github.com/Divyanshh04/style_transfer_project.git
    
 2. Navigate to the project directory:
+   ```bash
    cd style_transfer_project
+   
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## 🖥️ How to Run
+
+### Clone this repository:
+```bash
+git clone https://github.com/Divyanshh04/style_transfer_project.git
+
+
+
