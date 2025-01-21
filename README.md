@@ -43,7 +43,7 @@ To run this project, you'll need:
 
 ## 🖥️ How to Run
 
-### Clone this repository:
+## Clone this repository:
 ```bash
 git clone https://github.com/Divyanshh04/style_transfer_project.git
 
