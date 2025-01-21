@@ -41,11 +41,13 @@ To run this project, you'll need:
    ```bash
    pip install -r requirements.txt
 
-## 🖥️ How to Run
+### 🖥️ How to Run
 
-## Clone this repository:
+Clone this repository:
 ```bash
 git clone https://github.com/Divyanshh04/style_transfer_project.git
+
+
 
 
 
