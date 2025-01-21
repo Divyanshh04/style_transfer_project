@@ -47,5 +47,8 @@ To run this project, you'll need:
 ```bash
 git clone https://github.com/Divyanshh04/style_transfer_project.git
 
+###Run the style transfer script:
+
+
 
 
