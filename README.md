@@ -43,9 +43,20 @@ To run this project, you'll need:
 
 ### 🖥️ How to Run
 
-Clone this repository:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Divyanshh04/style_transfer_project.git
+   
+### Run the style transfer script:
+After setting up the dependencies, you can use the script to apply style transfer:
+
 ```bash
-git clone https://github.com/Divyanshh04/style_transfer_project.git
+python style_transfer.py --content_path <path_to_content_image> --style_path <path_to_style_image> --output_path <path_to_save_output>
+
+
+
+
+
 
 
 
