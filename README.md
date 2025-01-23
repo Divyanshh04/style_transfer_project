@@ -50,6 +50,10 @@ To run this project, you'll need:
 2. Run the style transfer script:
    ```bash
    python style_transfer.py --content_path <path_to_content_image> --style_path <path_to_style_image> --output_path <path_to_save_output>
+### 🎨 Usage Example
+Here’s an example of using the script:
+   ```bash
+   python style_transfer.py --content_path ./images/content.jpg --style_path ./images/style.jpg --output_path ./output/stylized_image.jpg
 
 
 
