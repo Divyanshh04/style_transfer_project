@@ -4,15 +4,15 @@ import numpy as np
 import tensorflow_hub as hub
 
 # Load content and style images
-content_image = Image.open(r"C:\Users\dksjn\style_transfer_project\content.jpg")  # Replace with your content image path
-style_image = Image.open(r"C:\Users\dksjn\style_transfer_project\style.jpg")      # Replace with your style image path
+content_image = Image.open(r"C:\Users\dksjn\style_transfer_project\content.jpg")  
+style_image = Image.open(r"C:\Users\dksjn\style_transfer_project\style.jpg")      
 
 # Resize images to 512x512
 content_image = content_image.resize((512, 512))
 style_image = style_image.resize((512, 512))
 
 # Convert images to numpy arrays
-content_array = np.array(content_image) / 255.0  # Normalize to [0, 1]
+content_array = np.array(content_image) / 255.0  
 style_array = np.array(style_image) / 255.0
 
 # Add a batch dimension for TensorFlow compatibility
@@ -30,6 +30,6 @@ stylized_image = tf.squeeze(stylized_image)  # Remove batch dimension
 stylized_image = tf.keras.preprocessing.image.array_to_img(stylized_image)
 
 # Save the stylized image
-stylized_image.save("stylized_image.jpg")  # Saves the output image as 'stylized_image.jpg'
+stylized_image.save("stylized_image.jpg")  
 
 print("Style transfer complete. Stylized image saved as 'stylized_image.jpg'.")
